@@ -1,0 +1,13 @@
+<input 
+[type]="type" 
+[ngStyle]="style" 
+[(ngModel)]="value" 
+(ngModelChange)="setFilter()"
+(keydown)="handleKeyDown($event)" 
+[editable-select]="options" 
+[selectStyle]="style"
+[selectFilter]="selectFilter"
+[topPlacement]="topPlacement"
+(selectRef)="selectref = $event"
+(chosen)="selectChosen($event)" 
+auto-focus>

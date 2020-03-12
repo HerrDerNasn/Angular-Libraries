@@ -1,0 +1,16 @@
+div {
+    background-color: white;
+}
+
+.options {
+    border: 1px solid rgb(198, 198, 198);
+    box-shadow: 0 0 1px 0 rgb(198, 198, 198);
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    max-height: 100px;
+
+    .marked {
+        background-color: #efefef;
+    }
+}

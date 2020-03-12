@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "hdn-editable": [
+        "dist/hdn-editable"
+      ],
+      "hdn-editable/*": [
+        "dist/hdn-editable/*"
+      ]
+    }
   }
 }

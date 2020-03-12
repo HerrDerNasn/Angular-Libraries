@@ -1,0 +1,5 @@
+<div [ngStyle]="calcedStyle" class="options">
+  <div [ngStyle]="{'padding': style.padding, 'textAlign': style.textAlign, 'width': style.width}"
+    *ngFor="let option of filtered; let idx = index" [ngClass]="{'marked': idx == markedIndex}" (click)="chooseMarked()"
+    (mouseenter)="markedIndex = idx">{{option}}</div>
+</div>
